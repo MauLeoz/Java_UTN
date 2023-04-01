@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        /*System.out.println("Hello world!");
+
+        //region EJERCICIO 1
 
         /*Programa java que realice lo siguiente: declarar una variable N de tipo int, una
         variable A de tipo double y una variable C de tipo char y asigna a cada una un valor.
@@ -9,7 +10,8 @@ public class Main {
         diferencia de A - N, el valor numérico correspondiente al carácter que contiene la
         variable C.*/
 
-       /* int N;
+      /*
+        int N;
         double A;
         char C;
 
@@ -17,7 +19,6 @@ public class Main {
         A = 425423;
         C = '@';
 
-        System.out.println("Ejercicio 1");
 
         System.out.println(N);
         System.out.println(A);
@@ -27,21 +28,29 @@ public class Main {
         System.out.println(A-N);
         System.out.println((int)C);
 
+       */
+        //endregion
+
+        //region EJERCICIO 2
+
         /*Programa java que realice lo siguiente: declarar dos variables X e Y de tipo int, dos
         variables N y M de tipo double y asigna a cada una un valor. A continuación mostrar
-        por pantalla una serie de operaciones entre ellas.
+        por pantalla una serie de operaciones entre ellas.*/
 
         int x,y;
-        double n,m;
+        double o,m;
         x=25;
         y=12;
-        n=5421;
+        o=5421;
         m=13475;
 
         System.out.println("Ejercicio 2\n");
 
         System.out.println(x*y);
         System.out.println(m/x);
+        System.out.println(o-x);
+        //endregion
+
 
         /*Programa Java que declare una variable entera N, asignarle un valor. A continuación
         escribe las instrucciones que realicen lo siguiente: incrementar N en 77, reducir su
