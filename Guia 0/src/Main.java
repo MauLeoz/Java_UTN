@@ -200,10 +200,12 @@ public class Main {
 
         //endregion
 
+        //region EJERCICIO 9
+
         /*Programa Java que lea un número entero por teclado y calcule el doble y el triple de
         ese número y lo muestre por pantalla.*/
-        /*System.out.println("Ejercicio 9\n");
 
+        /*
         int num;
         Scanner leer = new Scanner(System.in);
         System.out.print("Introduzca un numero: ");
@@ -212,44 +214,66 @@ public class Main {
         int triple = num*3;
 
         System.out.println("Doble es "+ doble);
-        System.out.println("Triple es "+ triple);*/
+        System.out.println("Triple es "+ triple);
+
+         */
+
+        //endregion
+
+        //region EJERCICIO 10
 
         /*Programa que lea una cantidad de grados Fahrenheit y lo convierta a grados
          centígrados.*/
 
-        /*double centigrado;
+        /*
+        double centigrado;
         Scanner leer = new Scanner(System.in);
         System.out.print("Introduzca un numero: ");
         centigrado = leer.nextDouble();
         double farenheit = (centigrado* 9/5) + 32;
 
-        System.out.println(centigrado +" grados centigrados son "+ farenheit + " grados farenheit");*/
+        System.out.println(centigrado +" grados centigrados son "+ farenheit + " grados farenheit");
+         */
+
+        //endregion
+
+        //region EJERCICIO 11
 
         /*Programa que lee por teclado el valor del radio de una circunferencia, calcula y
         muestra por pantalla la longitud y el área de la circunferencia.*/
 
-        /*double radio;
+        /*
+        double radio;
         Scanner leer = new Scanner(System.in);
         System.out.print("Introduzca el radio de la circunferencia: ");
         radio = leer.nextDouble();
-        double longitud;
-        double area;
 
-        longitud = 2*Math.PI*radio;
-        area = Math.PI*Math.pow(radio,2);*/
+        double longitud = 2 * Math.PI * radio;
+        double area = Math.PI * Math.pow(radio, 2);
 
 
-        /*System.out.println("La longitud de la circunferencia con radio = " + radio + " es igual a "+ longitud + ",y el area es "+ area );*/
+        System.out.println("La longitud de la circunferencia con radio = " + radio + " es igual a "+ longitud + ",y el area es "+ area );
+
+         */
+
+        //endregion
+
+        //region EJERCICIO 12
 
         /*Programa que pase una velocidad en Km/h a m/s. La velocidad se lee por teclado.*/
 
-        /*double velocidad;
+        /*
+        double velocidad;
         Scanner input = new Scanner(System.in);
         System.out.print("Introduzca la velocidad (km/h): ");
         velocidad = input.nextDouble();
         double metroPorSegundo = velocidad/3.6;
 
-        System.out.println(velocidad + " KM por hora equivalen a " + metroPorSegundo + " Metros por segundo");*/
+        System.out.println(velocidad + " KM por hora equivalen a " + metroPorSegundo + " Metros por segundo");
+
+         */
+
+       //endregion
 
 
 
