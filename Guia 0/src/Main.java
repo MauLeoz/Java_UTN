@@ -37,6 +37,7 @@ public class Main {
         variables N y M de tipo double y asigna a cada una un valor. A continuación mostrar
         por pantalla una serie de operaciones entre ellas.*/
 
+       /*
         int x,y;
         double o,m;
         x=25;
@@ -49,28 +50,38 @@ public class Main {
         System.out.println(x*y);
         System.out.println(m/x);
         System.out.println(o-x);
+
+        */
         //endregion
 
+        //region EJERCICIO 3
 
         /*Programa Java que declare una variable entera N, asignarle un valor. A continuación
         escribe las instrucciones que realicen lo siguiente: incrementar N en 77, reducir su
-        valor a 3, duplicar su valor.
+        valor a 3, duplicar su valor.*/
 
+
+        /*
         int q = 33;
 
         q+=77;
-        q-=3;
+        q=3;
         q*=2;
 
         System.out.println("Ejercicio 3\n");
-        System.out.println(q);*/
+        System.out.println(q);
+
+         */
+
+        //endregion
+
+        //region EJERCICIO 4
 
         /*Programa java que declare cuatro variables enteras A, B, C y D y asignarle un valor a
         cada una. A continuación realiza las instrucciones necesarias para que: B tome el
-        valor de C, C tome el valor de A, A tome el valor de D, D tome el valor de B.
+        valor de C, C tome el valor de A, A tome el valor de D, D tome el valor de B.*/
 
-        System.out.println("Ejercicio 4\n");
-
+        /*
         int a,b,c,d;
         a=11;
         b=4;
@@ -88,33 +99,52 @@ public class Main {
         System.out.println(a);
         System.out.println(b);
         System.out.println(c);
-        System.out.println(d);*/
+        System.out.println(d);
+
+         */
+
+        //endregion
+
+        //region EJERCICIO 5
 
         /*Programa Java que declare una variable A de tipo entero, asignarle un valor. A
         continuación mostrar un mensaje indicando si A es par o impar.*/
 
-        /*System.out.println("Ejercicio 5\n");
+        /*
+        int a = 9;
 
-        int a = 3;
-
-        if (a%2==0){
-            System.out.println("es par");}
-        else{
+        if (a%2==0)
+            System.out.println("es par");
+        else
             System.out.println("es impar");
-        }*/
+
+         */
+
+
+        //endregion
+
+        //region EJERCICIO 6
 
         /*Programa Java que declare una variable B de tipo entero y asignarle un valor. A
         continuación mostrar un mensaje indicando si el valor de B es positivo o negativo.*/
 
-        /*int b = -12;
+        /*
+        int b = 0;
 
         System.out.println("Ejercicio 6\n");
 
-        if (b < 0){
+        if (b < 0)
             System.out.println("Es negativo");
-        }else{
+        else if (b>0)
             System.out.println("Es positivo");
-        }*/
+        else
+            System.out.println("es cero");
+
+         */
+
+
+        //endregion
+
 
         /*Programa Java que declare una variable C de tipo entero y asignarle un valor. A
         continuación mostrar un mensaje indicando si el valor de C es positivo o negativo,
