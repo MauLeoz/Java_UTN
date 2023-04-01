@@ -319,20 +319,48 @@ public class Main {
 
         //Programa que calcula el área de un triángulo a partir de la longitud de sus lados.
 
-        Scanner input1 = new Scanner(System.in);
-        System.out.print("Ingrese la medida del primer lado: ");
-        double side1 = input1.nextDouble();
+        /*
+        Scanner input = new Scanner(System.in);
 
-        Scanner input2 = new Scanner(System.in);
-        System.out.print("Ingrese la medida del segundo lado: ");
-        double side2 = input2.nextDouble();
+        System.out.print("Ingrese la longitud del primer lado: ");
+        double lado1 = input.nextDouble();
 
-        Scanner input3 = new Scanner(System.in);
-        System.out.print("Ingrese la medida del ultimo lado: ");
-        double side3 = input3.nextDouble();
+        System.out.print("Ingrese la longitud del segundo lado: ");
+        double lado2 = input.nextDouble();
 
-        do
+        System.out.print("Ingrese la longitud del tercer lado: ");
+        double lado3 = input.nextDouble();
 
+        // Calculamos el semiperímetro
+        double s = (lado1 + lado2 + lado3) / 2;
+
+        // Calculamos el área utilizando la fórmula de Herón
+        double area = Math.sqrt(s * (s - lado1) * (s - lado2) * (s - lado3));
+
+        System.out.println("El área del triángulo es: " + area);
+
+         */
+
+        //endregion
+
+        //region EJERCICIO 16
+
+        //Programa que lee un número de 3 cifras y muestra sus cifras por separado.
+
+        /*
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Ingrese un número entero: ");
+        int numero = input.nextInt();
+
+        String numeroComoCadena = Integer.toString(numero);
+
+        for (int i = 0; i < numeroComoCadena.length(); i++) {
+            char cifra = numeroComoCadena.charAt(i);
+            System.out.println(cifra);
+        }
+
+         */
 
         //endregion
 
