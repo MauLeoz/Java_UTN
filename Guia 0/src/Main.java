@@ -364,6 +364,60 @@ public class Main {
 
         //endregion
 
+        //region EJERCICIO 17
+
+        /*Programa que lea un número entero N de 5 cifras y muestre las cifras que ocupan
+        posiciones impares.*/
+
+        /*
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Ingrese un número entero: ");
+        int numero = input.nextInt();
+
+        String numeroComoCadena = Integer.toString(numero);
+
+        for (int i = 0; i < numeroComoCadena.length(); i++) {
+            char cifra = numeroComoCadena.charAt(i);
+                if ((i+1)%2!=0) {
+                    System.out.println(cifra);
+                }
+        }
+
+         */
+
+
+        //endregion
+
+        //region EJERCICIO 18
+
+        /*Programa que lea tres números enteros H, M, S que contienen hora, minutos y
+        segundos respectivamente, y comprueba si la hora que indican es una hora válida*/
+
+        /*
+        Scanner input = new Scanner(System.in);
+        System.out.print("Ingrese una hora: ");
+        int hora = input.nextInt();
+
+        Scanner input2 = new Scanner(System.in);
+        System.out.print("Ingrese los minutos: ");
+        int minutos = input2.nextInt();
+
+        Scanner input3 = new Scanner(System.in);
+        System.out.print("Ingrese los segundos: ");
+        int segundos = input3.nextInt();
+
+        if ((hora>=0 && hora <24) && (minutos>=0 && minutos<60) && (segundos>=0 && segundos<60)){
+            String horaFormato = String.format("%02d:%02d:%02d", hora, minutos, segundos);
+            System.out.println("La hora es: " + horaFormato);}
+            else{
+                System.out.println("Datos no validos");}
+
+         */
+
+        //endregion
+
+
 
 
 
