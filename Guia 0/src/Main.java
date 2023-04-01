@@ -275,6 +275,68 @@ public class Main {
 
        //endregion
 
+        //region EJERCICIO 13
+
+        /* Programa que lea la longitud de los catetos de un triángulo rectángulo y calcule la
+        longitud de la hipotenusa según el teorema de Pitágoras.*/
+
+        /*
+        Scanner input1 = new Scanner(System.in);
+        System.out.print("Ingrese la medida del primer cateto: ");
+        double side1 = input1.nextDouble();
+
+        Scanner input2 = new Scanner(System.in);
+        System.out.print("Ingrese la medida del segundo cateto: ");
+        double side2 = input2.nextDouble();
+
+        double hipotenusa = Math.sqrt((Math.pow(side1,2) + Math.pow(side2,2)));
+
+        System.out.println(hipotenusa);
+
+         */
+
+        //endregion
+
+        //region EJERCICIO 14
+
+        //Programa que calcula el volumen de una esfera.
+
+        /*
+        Scanner leer = new Scanner(System.in);
+        System.out.print("Ingrese la medida del radio: ");
+        double radio = leer.nextDouble();
+        double pi = Math.PI;
+
+        Double volumen = (pi*Math.pow(radio,3))*(4.0/3.0);
+
+        System.out.println(volumen);
+
+         */
+
+        //endregion
+
+        //region EJERCICIO 15
+
+        //Programa que calcula el área de un triángulo a partir de la longitud de sus lados.
+
+        Scanner input1 = new Scanner(System.in);
+        System.out.print("Ingrese la medida del primer lado: ");
+        double side1 = input1.nextDouble();
+
+        Scanner input2 = new Scanner(System.in);
+        System.out.print("Ingrese la medida del segundo lado: ");
+        double side2 = input2.nextDouble();
+
+        Scanner input3 = new Scanner(System.in);
+        System.out.print("Ingrese la medida del ultimo lado: ");
+        double side3 = input3.nextDouble();
+
+        do
+
+
+        //endregion
+
+
 
 
 
