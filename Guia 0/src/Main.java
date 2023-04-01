@@ -10,7 +10,7 @@ public class Main {
         diferencia de A - N, el valor numérico correspondiente al carácter que contiene la
         variable C.*/
 
-      /*
+       /*
         int N;
         double A;
         char C;
@@ -145,13 +145,14 @@ public class Main {
 
         //endregion
 
+        //region EJERCICIO 7
 
         /*Programa Java que declare una variable C de tipo entero y asignarle un valor. A
         continuación mostrar un mensaje indicando si el valor de C es positivo o negativo,
         si es par o impar, si es múltiplo de 5, si es múltiplo de 10 y si es mayor o menor que
         100.*/
-        /*System.out.println("Ejercicio 7\n");
 
+        /*
         int c = -135;
 
         if (c < 0){
@@ -179,20 +180,25 @@ public class Main {
             System.out.println("Es menor que 100");
         }else{
             System.out.println("Es mayor o igual a 100");
-        }*/
+        }
+
+         */
+
+        //endregion
+
+        //region EJERCICIO 8
 
         /*Programa Java que lea un nombre y muestre por pantalla:
         “Buenos días, {NOMBRE}”.*/
-
-        /*System.out.println("Ejercicio 8\n");
 
         String name;
 
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introduzca su nombre: ");
         name = teclado.nextLine();
-        System.out.println("¡Hola " + name + "!");*/
+        System.out.println("¡Hola " + name + "!");
 
+        //endregion
 
         /*Programa Java que lea un número entero por teclado y calcule el doble y el triple de
         ese número y lo muestre por pantalla.*/
