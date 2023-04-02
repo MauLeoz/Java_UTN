@@ -12,7 +12,7 @@ public class Main {
         System.out.println(libro);
 
         //Modifique el precio del libro “Effective Java” a 500 pesos y aumente la
-       // cantidad en 50 copias.
+        // cantidad en 50 copias.
 
         libro.setPrecio(500);
         libro.setStock(200);
