@@ -9,9 +9,7 @@ public class Hora {
         setSegundo(segundo);
     }
 
-    public int getHora() {
-        return hora;
-    }
+
 
     public void setHora(int hora) {
         if (hora >= 0 && hora <= 23) {
@@ -20,10 +18,10 @@ public class Hora {
             throw new IllegalArgumentException("La hora debe estar entre 0 y 23");
         }
     }
-
-    public int getMinuto() {
-        return minuto;
+    public int getHora() {
+        return hora;
     }
+
 
     public void setMinuto(int minuto) {
         if (minuto >= 0 && minuto <= 59) {
@@ -33,9 +31,10 @@ public class Hora {
         }
     }
 
-    public int getSegundo() {
-        return segundo;
+    public int getMinuto() {
+        return minuto;
     }
+
 
     public void setSegundo(int segundo) {
         if (segundo >= 0 && segundo <= 59) {
@@ -44,6 +43,10 @@ public class Hora {
             throw new IllegalArgumentException("Los segundos deben estar entre 0 y 59");
         }
     }
+    public int getSegundo() {
+        return segundo;
+    }
+
 
     public void imprimirHora(){
         System.out.printf("%02d:%02d:%02d%n", hora, minuto, segundo);

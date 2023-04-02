@@ -80,7 +80,7 @@ public class Main {
 
         //region EJERCICIO 5
 
-        Hora horaActual = new Hora(22, 30, 45);
+        Hora horaActual = new Hora(11, 30, 45);
         horaActual.imprimirHora();
         horaActual.avanzarSegundo().imprimirHora();
         horaActual.retrocederSegundo().imprimirHora();
@@ -91,12 +91,8 @@ public class Main {
         horaActual.avanzarSegundo().imprimirHora();
         horaActual.retrocederSegundo().imprimirHora();
 
-
-
         //endregion
 
-
     }
-
 
 }
