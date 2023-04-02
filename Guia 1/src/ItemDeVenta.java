@@ -1,7 +1,8 @@
+import java.text.DecimalFormat;
 public class ItemDeVenta {
     private int identificador;
     private String descripcion;
-    private int cantidad;
+    private double cantidad;
     private double precio;
 
     public int getIdentificador() {
@@ -16,10 +17,10 @@ public class ItemDeVenta {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-    public int getCantidad() {
+    public double getCantidad() {
         return cantidad;
     }
-    public void setCantidad(int cantidad) {
+    public void setCantidad(double cantidad) {
         this.cantidad = cantidad;
     }
     public double getPrecio() {
@@ -31,7 +32,7 @@ public class ItemDeVenta {
 
     public ItemDeVenta() {
     }
-    public ItemDeVenta(int identificador,String descripcion, int cantidad, double precio){
+    public ItemDeVenta(int identificador,String descripcion, double cantidad, double precio){
         this.identificador = identificador;
         this.descripcion = descripcion;
         this.cantidad = cantidad;
@@ -39,7 +40,8 @@ public class ItemDeVenta {
     }
 
     public double precioTotal(){
-        return precio*cantidad;
+        double resultado = precio * cantidad;
+        return resultado;
     }
 
     @Override

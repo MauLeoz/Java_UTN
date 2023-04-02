@@ -1,8 +1,6 @@
 public class Rectangulo {
-
     private double ancho;
     private double alto;
-
 
     public Rectangulo() {
         this.ancho = 1.0;
@@ -13,7 +11,6 @@ public class Rectangulo {
         this.ancho = ancho;
         this.alto = alto;
     }
-
     public double getAncho() {
         return ancho;
     }

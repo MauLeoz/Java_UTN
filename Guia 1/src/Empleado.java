@@ -3,8 +3,9 @@ public class Empleado {
     private String nombre;
     private String apellido;
     private int salario;
-
-    public Empleado(String dni, String nombre, String apellido,int salario){
+    public Empleado() {
+    }
+    public Empleado(String dni, String nombre, String apellido, int salario){
         this.dni = dni;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -46,8 +47,6 @@ public class Empleado {
         salario = (salario*12);
         return salario;
     }
-
-
 
     @Override
     public String toString() {

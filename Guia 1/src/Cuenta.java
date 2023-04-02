@@ -22,21 +22,25 @@ public class Cuenta {
     public void setBalance(double balance) {
         this.balance = balance;
     }
+
+    public Cuenta() {
+    }
+
     public Cuenta(int id, String nombre, double balance) {
         this.id = id;
         this.nombre = nombre;
         this.balance = balance;
     }
     public double credito(double deposito){
-        return balance + deposito;
+        return getBalance() + deposito;
     }
 
     public double debito(double extraccion){
-        if (balance >= extraccion){
-           return balance - extraccion;
+        if (getBalance() >= extraccion){
+           return getBalance() - extraccion;
         }      else {
             System.out.println("La extraccion ingresada es mayor al saldo de la cuenta");
-            return balance;
+            return getBalance();
         }
     }
 
