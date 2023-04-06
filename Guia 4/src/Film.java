@@ -1,47 +1,41 @@
+import java.time.LocalDate;
+
 public class Film {
-    private String titulo;
-    private String fechaLanzamiento;
-    private Integer duracion;
+    private int duracion;
+    private int stock;
     private String clasificacion;
+    private String titulo;
+    private LocalDate fechaLanzamiento;
+    private String genero;
     private String siglaPais;
-    private String descripcion;
-    private Integer stock;
 
     public Film() {
     }
 
-    public Film(String titulo, String fechaLanzamiento, Integer duracion, String clasificacion, String siglaPais, String descripcion, Integer stock) {
-        this.titulo = titulo;
-        this.fechaLanzamiento = fechaLanzamiento;
+    public Film(int duracion, int stock, String clasificacion, String titulo, LocalDate fechaLanzamiento, String genero, String siglaPais) {
         this.duracion = duracion;
-        this.clasificacion = clasificacion;
-        this.siglaPais = siglaPais;
-        this.descripcion = descripcion;
         this.stock = stock;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public void setTitulo(String titulo) {
+        this.clasificacion = clasificacion;
         this.titulo = titulo;
-    }
-
-    public String getFechaLanzamiento() {
-        return fechaLanzamiento;
-    }
-
-    public void setFechaLanzamiento(String fechaLanzamiento) {
         this.fechaLanzamiento = fechaLanzamiento;
+        this.genero = genero;
+        this.siglaPais = siglaPais;
     }
 
-    public Integer getDuracion() {
+    public int getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(Integer duracion) {
+    public void setDuracion(int duracion) {
         this.duracion = duracion;
+    }
+
+    public int getStock() {
+        return stock;
+    }
+
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 
     public String getClasificacion() {
@@ -52,6 +46,30 @@ public class Film {
         this.clasificacion = clasificacion;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public LocalDate getFechaLanzamiento() {
+        return fechaLanzamiento;
+    }
+
+    public void setFechaLanzamiento(LocalDate fechaLanzamiento) {
+        this.fechaLanzamiento = fechaLanzamiento;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
     public String getSiglaPais() {
         return siglaPais;
     }
@@ -60,19 +78,16 @@ public class Film {
         this.siglaPais = siglaPais;
     }
 
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public Integer getStock() {
-        return stock;
-    }
-
-    public void setStock(Integer stock) {
-        this.stock = stock;
+    @Override
+    public String toString() {
+        return "Film{" +
+                "duracion=" + duracion +
+                ", stock=" + stock +
+                ", clasificacion='" + clasificacion + '\'' +
+                ", titulo='" + titulo + '\'' +
+                ", fechaLanzamiento=" + fechaLanzamiento +
+                ", genero='" + genero + '\'' +
+                ", siglaPais='" + siglaPais + '\'' +
+                '}';
     }
 }

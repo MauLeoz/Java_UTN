@@ -65,4 +65,15 @@ public class Alquiler {
     public void setDevolucion(LocalDate devolucion) {
         this.devolucion = devolucion;
     }
+
+    @Override
+    public String toString() {
+        return "Alquiler{" +
+                "id=" + id +
+                ", film=" + film +
+                ", cliente=" + cliente +
+                ", prestamo=" + prestamo +
+                ", devolucion=" + devolucion +
+                '}';
+    }
 }
