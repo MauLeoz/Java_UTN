@@ -70,7 +70,7 @@ public class VideoStore {
         listaCliente.add(cliente);
         System.out.println("Cliente agregado con exito");
     }
-
+ ddd
 
 
 }
