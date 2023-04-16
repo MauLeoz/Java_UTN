@@ -114,9 +114,11 @@ public class VideoStore {
                     System.out.println(elemento);
             }
         }else{
-                System.out.println("El cliente no registras alquileres");}
+                System.out.println("El cliente no registra alquileres");}
         }
     }
+
+
 
 
 
