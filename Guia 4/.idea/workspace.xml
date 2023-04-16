@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cccddc96-208d-43ba-aaeb-8e13c39d35a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/Alquiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/Alquiler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/Film.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/VideoStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/VideoStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alquiler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VideoStore.java" afterDir="false" />
-    </list>
+    <list default="true" id="cccddc96-208d-43ba-aaeb-8e13c39d35a0" name="Changes" comment="16/04/2023" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +40,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680800569065</updated>
     </task>
+    <task id="LOCAL-00001" summary="16/04/2023">
+      <created>1681657181243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681657181243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,6 +60,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="16/04/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="16/04/2023" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Guia_4$Main.ic" NAME="Main Coverage Results" MODIFIED="1680738625788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
