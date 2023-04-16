@@ -6,6 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="cccddc96-208d-43ba-aaeb-8e13c39d35a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/Alquiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/Alquiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/Film.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/Film.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Guia 4/VideoStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Guia 4/VideoStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alquiler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alquiler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VideoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VideoStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2O3sOVpwvI1qYZKXZRjS7gOsDUd" />
   <component name="ProjectLevelVcsManager">
@@ -26,7 +39,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/IdeaProjects/Java_UTN/Guia 4&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

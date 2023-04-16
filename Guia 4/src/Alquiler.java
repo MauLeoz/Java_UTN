@@ -10,11 +10,11 @@ public class Alquiler {
     public Alquiler() {
     }
 
-    public Alquiler(Film film, Cliente cliente, LocalDate prestamo) {
+    public Alquiler(Film film, Cliente cliente ) {
         this.id = i++;
         this.film = film;
         this.cliente = cliente;
-        this.prestamo = prestamo;
+        this.prestamo = LocalDate.now();
         this.devolucion = prestamo.plusDays(2);
     }
 

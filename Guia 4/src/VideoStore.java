@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.time.LocalDate;
+import java.util.List;
+
 public class VideoStore {
     private ArrayList<Film> listaFilms;
     private ArrayList<Cliente> listaCliente;
@@ -61,7 +63,7 @@ public class VideoStore {
     }
 
     public Alquiler generarAlquiler(Cliente cliente, Film film) {
-        Alquiler alquiler = new Alquiler(film, cliente, LocalDate.now());
+        Alquiler alquiler = new Alquiler(film, cliente);
         return alquiler;
     }
 
@@ -70,6 +72,62 @@ public class VideoStore {
         listaCliente.add(cliente);
         System.out.println("Cliente agregado con exito");
     }
+
+    public Alquiler existeAlquiler(int id) {
+        for (Alquiler alquiler : listaAlquiler) {
+            if (alquiler != null && alquiler.getId()==id) {
+                return alquiler;
+            }
+        }
+        return null;
+    }
+
+    public void eliminarAlquiler(int id){
+        for (Alquiler alquiler : listaAlquiler) {
+            if (alquiler != null && alquiler.getId()==id) {
+                listaAlquiler.remove(alquiler);
+                break;
+            }
+        }
+    }
+
+    public void verAlquileres(){
+        for (Alquiler alquiler : listaAlquiler) {
+            System.out.println(alquiler);
+        }
+    }
+
+    public void vencenHoy(){
+        for (Alquiler alquiler : listaAlquiler) {
+            if (alquiler != null && alquiler.getDevolucion()==LocalDate.now()){
+            System.out.println(alquiler);
+        }else{
+                System.out.println("No hay alquileres que venzan hoy");}
+        }
+    }
+
+    public void mostarUltimos10(String nombre){
+        for (Alquiler alquiler : listaAlquiler) {
+            if(alquiler != null && alquiler.getCliente().equals(nombre)){
+                List<Alquiler> ultimos10 = listaAlquiler.subList(Math.max(listaAlquiler.size() - 10, 0), listaAlquiler.size());
+                for (Alquiler elemento : ultimos10) {
+                    System.out.println(elemento);
+            }
+        }else{
+                System.out.println("El cliente no registras alquileres");}
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
