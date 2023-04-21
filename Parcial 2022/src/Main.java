@@ -22,10 +22,12 @@ public class Main {
 
         s.aplicarDescuento(15);
         System.out.println(s.getPrecio());
+        System.out.println();
 
         for (Producto p : listaProductos) {
              {
-                 System.out.println(p.getClass().getName() + " precio: $" + p.getPrecio());
+                 System.out.println(p.getClass().getName() + " precio original: $" + p.getPrecio());
+
 
                  if(p.getClass().getName()=="Silla"){
                      p.aplicarDescuento(5);
@@ -37,7 +39,8 @@ public class Main {
                      p.aplicarDescuento(20);
                  }
 
-                 System.out.println(p.getClass().getName() + " precio: $" + p.getPrecio());
+                 System.out.println(p.getClass().getName() + " precio Nuevo: $" + p.getPrecio());
+                 System.out.println();
             }
 
 
