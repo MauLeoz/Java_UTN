@@ -35,4 +35,9 @@ public class InstrumentoMusical {
                 ", marca='" + marca + '\'' +
                 '}';
     }
+
+    public void aplicarAumento(double aumento){
+        double aux = getPrecio()+(getPrecio()*aumento/100);
+        setPrecio(aux);
+    }
 }

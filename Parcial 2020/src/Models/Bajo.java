@@ -1,6 +1,6 @@
 package Models;
 
-public class Bajo extends Cuerda{
+public class Bajo extends Cuerda implements SonidoAmplificado{
     private int cuerda=4;
     private String modelo;
 
@@ -39,5 +39,10 @@ public class Bajo extends Cuerda{
                 "cuerda=" + cuerda +
                 ", modelo='" + modelo + '\'' +
                 "} " + super.toString();
+    }
+
+    @Override
+    public void SonidoAmplificado() {
+        System.out.println(getClass().getSimpleName() + " Sonido Amplificado");
     }
 }
