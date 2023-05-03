@@ -41,6 +41,7 @@ public class Main {
 
                  System.out.println(p.getClass().getName() + " precio Nuevo: $" + p.getPrecio());
                  System.out.println();
+                 System.out.println();
             }
 
 

@@ -56,7 +56,7 @@ public class Aeropuerto {
         return "Aeropuerto{" +
                 "nombre='" + nombre + '\'' +
                 ", codigo='" + codigo + '\'' +
-                ", capacidadOperacion='" + capacidadOperacion + '\'' +
+                ", capacidadOperacion d='" + capacidadOperacion + '\'' +
                 ", hangar=" + hangar +
                 '}';
     }

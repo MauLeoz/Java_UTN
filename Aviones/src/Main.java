@@ -39,5 +39,6 @@ public class Main {
         System.out.println(comercialPlaneTwo.takeOff());
         System.out.println(comercialPlaneTwo.fly());
         System.out.println(comercialPlaneTwo.Land());
+        System.out.println("Final del practico");
     }
 }
