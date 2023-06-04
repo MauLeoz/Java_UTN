@@ -1,0 +1,71 @@
+{
+  "nombre": "Astor Piazolla",
+  "codigoInternacional": "MDQ212",
+  "direccion": "Ruta 222",
+  "capacidadOperacion": 6,
+  "hangares": [
+    {
+      "nombre": "Comercial",
+      "aviones": [
+        {
+          "cantidadAzafatas": 2,
+          "servicios": [
+            "Peliculas",
+            "Comida",
+            "Juegos"
+          ],
+          "modelo": "Mod1",
+          "marca": "Marca1",
+          "capacidadCombustible": 50000,
+          "tipoMotor": "1600fg",
+          "cantidadAsientos": 25
+        },
+        {
+          "cantidadAzafatas": 3,
+          "servicios": [
+            "Peliculas",
+            "Comida",
+            "Juegos"
+          ],
+          "modelo": "Mod2",
+          "marca": "Marca1",
+          "capacidadCombustible": 150000,
+          "tipoMotor": "2ff600fg",
+          "cantidadAsientos": 225
+        }
+      ]
+    },
+    {
+      "nombre": "De carga",
+      "aviones": []
+    },
+    {
+      "nombre": "Militar",
+      "aviones": [
+        {
+          "tipo": "AIRE_TIERRA",
+          "cantidadBalas": 1000000,
+          "modelo": "Mod1",
+          "marca": "Marca2",
+          "capacidadCombustible": 50000,
+          "tipoMotor": "1600fg",
+          "cantidadAsientos": 50
+        }
+      ]
+    },
+    {
+      "nombre": "Privado",
+      "aviones": [
+        {
+          "tieneJacuzzi": true,
+          "claveWifi": "sfsdfsdf",
+          "modelo": "Mod1",
+          "marca": "Marca1",
+          "capacidadCombustible": 50000,
+          "tipoMotor": "1600fg",
+          "cantidadAsientos": 50
+        }
+      ]
+    }
+  ]
+}
