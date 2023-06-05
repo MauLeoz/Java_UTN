@@ -42,7 +42,7 @@ public class Main {
         Hangar<Militar>   hm = new Hangar<>("Militar");
         Hangar<Privado>   hp = new Hangar<>("Privado");
 
-        Aeropuerto<Avion> aeropuerto = new Aeropuerto<>("Astor Piazolla","MDQ212","Ruta 222",6);
+        Aeropuerto<Avion> aeropuerto = new Aeropuerto<>("Astor Piazolla","MDQ212","Ruta 222",2);
 
         aeropuerto.agregarHangar(hc);
         aeropuerto.agregarHangar(hd);
@@ -57,6 +57,8 @@ public class Main {
         aeropuerto.recorrerHangares();
 
         aeropuerto.despegarAviones(hc);
+
+
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
